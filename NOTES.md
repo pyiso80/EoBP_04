@@ -63,18 +63,23 @@ for measurements (how much)
             num = 5;
     - real values
     -       double fraction;
-    -       fraction = 0.2;
+            fraction = 0.2;
     - a single letter
     -       char letter;
-    -       letter = 'c';
-    - // true or false <br> boolean isLove; <br> isLove = true;
-    - // use of expression <br>double myGPA; <br> myGPA = 1.0 + 2.25;
-- Declare and Initialize
-    - A variable can be declared/initialized in one statement.
-    - This is probably the most commonly used declaration syntax.
-    - Examples:
-        <br> double tempF = 98.6;
-        <br> int x = (12 / 2) + 3;
+            letter = 'c';
+    - true or false
+    -       boolean isLove;
+            isLove = true;
+    - use of expression
+    -       double myGPA;
+            myGPA = 1.0 + 2.25;
+### Declare and Initialize
+- A variable can be declared/initialized in one statement.
+- This is probably the most commonly used declaration syntax.
+- Examples:
+
+            double tempF = 98.6;
+            int x = (12 / 2) + 3;
 
  - Common confusion about equal sign (=)
     - In Java and most other programming languages, it means store the value on the right
