@@ -84,6 +84,8 @@ int vs double
         to the variable.
     - In general, if no information is lostJava automatically convert
 
+- Widening and Narrowing
+
 - Common Compiler Errors
     - A variable can't be used until it is assigned a value.
         - int x;

@@ -22,29 +22,50 @@ and mysterious magical machine works.
 ### Computation
 - #### is the manipulation of information by either humans or machines.
 ### Computers
-- #### Machines that do computation.
+- #### Machines that do computation (Machines that manipulate information).
 
-(Computer as computing machines)
-Information Processing
+### What is information? How it's represented, stored, exchanged?
+- writing (text)
+- Much later, sound, and images comes
+- Before computer's were invented, information is created, processed, and consumed only by
+  humans.
+- Now,
 
-How do we represent information digitally? There can be many ways
+## How do we represent information digitally?
+- The story start with a switch, which can be in one of the two possible states, on and off.
+- A single switch doesn't do much.
+- But..., how a bout an array of switches
 
-Representation
-	Representation of numbers (Mathematical numbers)
+## Representation of numbers (binary numbers)
 		1 bit
-		2 bit (4 VALUES, 0 TO 3)
+		    only two values, 1 and 0
+		2 bit
+		    4 values, 0, 1, 2 3
 		3 bit
-		4 bit (16 VALUES, 0 TO 15)
+		4 bit
 
-		8 bit (1 byte) (0 TO 255)
+		8 bit (commonly called a byte)
+		    256 values (0 to 255)
 		32 bit, 4 bytes
+		    4294967296 values (0 to 4, 294, 967,295)
+		    This is over 4294  millions (over 4 billions)
 		64 bit, 8 bytes
+		    (18.446 trillions ~ 18.446 x 10^18 values)
 
-Textual Representation, Printing, Monitor Display
+## How do we represents letters and symbols
+
+We can form arbitrary rules
+
+        0000 = A , 0100 = E , 1000 = I , 1100 , M
+        0001 = B , 0101 = F , 1001 = J , 1101 , N
+        0010 = C , 0110 = G , 1010 = K , 1110 , O
+        0011 = D , 0111 = H , 1011 = L , 1111 , P
+
+If choices were arbitrary, we can't not exchange.
 	LETTERS
 		A-Z -> 65 TO 90
 		A-Z -> 97 TO 122
-	NUMERIC
+	Digits
 		0 TO 9
 	And others
 		such as @, $, }
@@ -126,4 +147,10 @@ Hex (just for easier representation, shorter)
 
 
 How do you know this really is 63 or ?
-[data
+[data]
+
+Writing Programs
+Compiling
+Linking
+Binary Executable
+Running Program (
