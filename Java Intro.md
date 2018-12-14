@@ -75,7 +75,9 @@ impossible. So it is standardized, known as ASCII
 	And others
 		such as @, $, }
 	There are 256 total characters in ASCII code.
-There are also characters in ASCII which are not printable, such as
+
+There are also characters in ASCII which are not printable but control devices like
+monitors and printers. For instance,
 
 	Backspace (represented by 8)
 
@@ -89,82 +91,56 @@ There are also characters in ASCII which are not printable, such as
 	FLEX (and variants). A CR+LF pair is used by CP/M-80 and its derivatives including
 	DOS and Windows, and by Application Layer protocols such as FTP, SMTP, and HTTP.
 
-Unicode Standard
-	UTF-8
-	UTF-16
-	UTF-32
+### What about non English characters, like Chinese, Japanese, Korean
+There are so many characters. 1 byte is not enough.
 
-	၁ -> 0x1041
+        UTF-8
+        UTF-16
+        UTF-32
 
-How dow you know
+Numbers and characters
 
- 01000001, 01000011, 01000101
- 65.            , 67            , 69				Numbers?
- A C E
+### Meaning of Data
+ - Assume there are a sequence of 3 bytes somewhere inside computer 01000001, 01000011,
+ 01000101
+    - Are they 65            , 67            , 69?
+    - Or are they ASCII encoding for the letters A C E?
 
-Everything just look likes numbers to the computer.
+ - The meaning of data depends on the context. To make sense of the data, we have to put it
+ into some context.
 
-The meaning depends on the context ( which we’ll talk about in a few mins)
+### Representation of pictures
+- Digital images are presented as 2 dimensional array of small squares, called pixels.
+- 1920x1080 (Full HD),
+- To represent a color image, each pixel's color is represented with 3 color values, RGB,
+<br> how much of each red, green and blue, using 1 byte for each color value.
 
+### How about videos
 
-
-	Representation of pictures
-		bit depth Color depth or colour depth (see spelling differences), also known as bit depth, is either the number of bits used to indicate the color of a single pixel, in a bitmapped image or video framebuffer, or the number of bits used for each color component of a single pixel.
-
-
-Digital Pictures (Pixels)
-1920x1080 (Full HD),
-
-SELECT LARGE-SCREEN RESOLUTIONS
-Resolution name	Horizontal x Vertical pixels	Other names	Devices
-8K	7,680x4,320	none	Concept TVs
-"Cinema" 4K	4,096x[unspecified]	4K	Projectors
-UHD	3,840x2,160	4K, Ultra HD, Ultra-High Definition	TVs
-2K	2,048x[unspecified]	none	Projectors
-WUXGA	1,920x1,200	Widescreen Ultra Extended Graphics Array	Monitors, projectors
-1080p	1,920x1,080	Full HD, FHD, HD, High Definition	TVs, monitors
-720p	1,280x720	HD, High Definition	TVs
-
-	Representation of movies
-		just a series of images
-	Representation of sound
-
-Images,
-
+### How about audio?
 
 So this is how info is represented in computers.
 
-The next thing is how these various kind of information are processed by a computer.
+### High Level View of Computer Today's Computer Systems
 
+- #### CPU
 
-Memory
-	store information (data)
-	Instructions (command that tells the cpu what to do with the data)
+- #### Memory
+    - Electronics chips where programs and data to be processed are located (while the
+    program is running)
+    - Information to be processed (You should know what are they by now)
+	- Program Instructions (command that tells the cpu what to do with the data)
+	    - Although they are capable of manipulating information, computers by themselves
+	    <br> do not consume or transformed information.
+	    - We have to write programs to manipulate information in the ways we want.
+	    - Programs are translated into instructions (also represented by zeros and ones) CPU
+	    <br> understands.
+	    -
 
+### Let's take a look into more details:
 
-
-
-
-
-
-A text editor
-	Keyboard -> characters
-				map to ascii codes
-
-	Calc
-		keyboard -> ascii -> convert to interger -> add -> result -> convert to char ->
-		sent to display
-
-	what would happen
-
-Hex (just for easier representation, shorter)
-
-
-How do you know this really is 63 or ?
-[data]
-
-Writing Programs
-Compiling
-Linking
-Binary Executable
-Running Program (
+- Writing Programs
+- Compiling
+- Linking
+- Binary Executable
+- Running Program
