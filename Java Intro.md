@@ -61,19 +61,29 @@ We can form arbitrary rules
         0010 = C , 0110 = G , 1010 = K , 1110 , O
         0011 = D , 0111 = H , 1011 = L , 1111 , P
 
-If choices were arbitrary, we can't not exchange.
+(Note:
+In communications and information processing, code is a system of rules to convert information)
+
+But if choices were arbitrary, we can't not have a common understanding and exchange is
+impossible. So it is standardized, known as ASCII
+
 	LETTERS
 		A-Z -> 65 TO 90
 		A-Z -> 97 TO 122
 	Digits
-		0 TO 9
+		0 - 9 -> 48 to 57
 	And others
 		such as @, $, }
+	There are 256 total characters in ASCII code.
+There are also characters in ASCII which are not printable, such as
 
-	8 (backspace, BS, \b, ^H), may overprint the previous character.
-       9 (horizontal tab, HT, \t, ^I), moves the printing position right to the next tab stop.
-	10 (line feed, LF, \n, ^J), moves the print head down one line, or to the left edge and down. Used as the end of line marker in most UNIX systems and variants.
-	13 (carriage return, CR, \r, ^M), moves the printing position to the start of the line, allowing overprinting. Used as the end of line marker in Classic Mac OS, OS-9, FLEX (and variants). A CR+LF pair is used by CP/M-80 and its derivatives including DOS and Windows, and by Application Layer protocols such as FTP, SMTP, and HTTP.
+	Backspace (represented by 8)
+
+    Horizontal tab (by 9) which moves the printing position right to the next tab stop.
+
+	Line feed (by 10), which moves the print head down one line, or to the left edge and down. Used as the end of line marker in most UNIX systems and variants.
+
+	Carriage return,  (by 13) moves the printing position to the start of the line, allowing overprinting. Used as the end of line marker in Classic Mac OS, OS-9, FLEX (and variants). A CR+LF pair is used by CP/M-80 and its derivatives including DOS and Windows, and by Application Layer protocols such as FTP, SMTP, and HTTP.
 
 Unicode Standard
 	UTF-8
