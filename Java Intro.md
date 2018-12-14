@@ -81,9 +81,13 @@ There are also characters in ASCII which are not printable, such as
 
     Horizontal tab (by 9) which moves the printing position right to the next tab stop.
 
-	Line feed (by 10), which moves the print head down one line, or to the left edge and down. Used as the end of line marker in most UNIX systems and variants.
+	Line feed (by 10), which moves the print head down one line, or to the left edge and
+	<br>down. Used as the end of line marker in most UNIX systems and variants.
 
-	Carriage return,  (by 13) moves the printing position to the start of the line, allowing overprinting. Used as the end of line marker in Classic Mac OS, OS-9, FLEX (and variants). A CR+LF pair is used by CP/M-80 and its derivatives including DOS and Windows, and by Application Layer protocols such as FTP, SMTP, and HTTP.
+	Carriage return,  (by 13) moves the printing position to the start of the line,
+	<br>allowing overprinting. Used as the end of line marker in Classic Mac OS, OS-9,
+	<br>FLEX (and variants). A CR+LF pair is used by CP/M-80 and its derivatives including
+	<br>DOS and Windows, and by Application Layer protocols such as FTP, SMTP, and HTTP.
 
 Unicode Standard
 	UTF-8
