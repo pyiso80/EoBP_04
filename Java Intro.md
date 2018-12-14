@@ -1,21 +1,28 @@
-# What we have learned is
-	- Get a feel of what it is like programming a computer
-	- Fundamental programming constructs (found in many programming languages)
-	- Program design and problem solving techniques
+### What we have learned is
+- Get a feel of what it is like programming a computer
+- Fundamental programming constructs (found in many programming languages)
+- Program design and problem solving techniques
 
 ### What is programming?
-It’s been only a few days we start learning to program.
-	It involves many things. It is a set of activities, not just one.
-	- You have a problem to solve
-	- You
-	- Implement the algorithm using a programming language
-	- You test and verify the program solve the problem.
+- Programming is telling a computer how it should do its job.
+- Creating computer programs involves many things. It is a set of activities, not just one
+activity.
+	- You start with a problem to solve using computers.
+	- You find a strategy (a recipe) for solving that problem.
+	- Implement the algorithm using a programming language.
+	- You test and verify the program to make sure it solves the problem as intended.
+	- If it doesn't, you fix the error in your program.
 
-OK, now that you know what is programming (in other words how to get a computer your problem solved), It is time to understand the machine, where the computer program actually run, and how it works.
+OK, now that you understand somewhat what programming is and how to write programs. It can
+be beneficial, for our future pursuit of programming skills, to understand these wonderful
+and mysterious magical machine works.
 
+## Information/Data, Computing/Computation, Computers and Computer Programs
 
-Computers, computer programs, and information
-Computation is the manipulation of data by either humans or machines.
+### Computation
+- #### is the manipulation of information by either humans or machines.
+### Computers
+- #### Machines that do computation.
 
 (Computer as computing machines)
 Information Processing
