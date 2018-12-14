@@ -1,0 +1,7 @@
+import acm.program.GraphicsProgram;
+
+public class MyGraphicsProgram extends GraphicsProgram {
+    public void run(){
+        //add commands as required
+    }
+}
