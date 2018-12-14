@@ -1,13 +1,11 @@
 **Console Program**
 - println & print
-	- Console -> text entry and display window/screen/device
-					On Windows cmd,
-    - HelloWorld with println
-    - println (print line)
+	- Console is text entry and display window/screen/device
+    - HelloWorld program with println
     - println("Some Text");
 		- quotes does not appear in output
-	- println();
-    - print()
+	- println("Hello Hello");
+    - print("Hi, Everyone");
 - Escape sequences
 - escape sequence: A special sequence of characters used to represent certain special characters in a string.
 	- **\t** 		tab character
@@ -17,11 +15,10 @@
 
 - AddTwoIntegers
 
-
 - Variables
 	- location to store some kind of value inside RAM
 	- has name
-	- use the name
+	- use the name to use the value stored
 
 - Making new variables
 	int myVariable;
@@ -31,12 +28,12 @@
 	- **String** (technically it’s not the type of variable, it’s ref type)
 	- and many others
 
-int vs double
+- int vs double
 	int used for counting (how many)
 	double for measurements (how much)
 
 - variable declaration
-	- Sets aside memory for storing a value.
+	- Sets aside memory location for storing a value.
 	- Variables must be declared before they can be used.
 	- Examples:
         - int myAge;

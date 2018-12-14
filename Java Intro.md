@@ -25,11 +25,11 @@ and mysterious magical machine works.
 - #### Machines that do computation (Machines that manipulate information).
 
 ### What is information? How it's represented, stored, exchanged?
-- writing (text)
-- Much later, sound, and images comes
+- Writing (text) , started thousands of years
+- Much later, sound, and images comes, started a few hundred years ago
 - Before computer's were invented, information is created, processed, and consumed only by
   humans.
-- Now,
+- Now, computers consume and transformed information, helping humans in many ways.
 
 ## How do we represent information digitally?
 - The story start with a switch, which can be in one of the two possible states, on and off.
@@ -128,6 +128,7 @@ So this is how info is represented in computers.
 - #### Memory
     - Electronics chips where programs and data to be processed are located (while the
     program is running)
+    - Logically, can be viewed as a very long sequence of bytes.
     - Information to be processed (You should know what are they by now)
 	- Program Instructions (command that tells the cpu what to do with the data)
 	    - Although they are capable of manipulating information, computers by themselves
@@ -135,7 +136,13 @@ So this is how info is represented in computers.
 	    - We have to write programs to manipulate information in the ways we want.
 	    - Programs are translated into instructions (also represented by zeros and ones) CPU
 	    <br> understands.
-	    -
+	    - The translated instructions and data are loaded into memory.
+	    - By strictly following the instructions in memory one by one, information is
+	    <br> processed in the way we want.
+
+- #### Input/Output
+    - To receive information coming from outside the system.
+    - To transmit or display information to outside of the system
 
 ### Let's take a look into more details:
 
