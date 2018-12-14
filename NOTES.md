@@ -2,16 +2,16 @@
 - println & print
 	- Console is text entry and display window/screen/device
     - HelloWorld program with println
-    - println("Some Text");
+    -       println("Some Text");
 		- quotes does not appear in output
-	- println("Hello Hello");
-    - print("Hi, Everyone");
+	-       println("Hello Hello");
+    -       print("Hi, Everyone");
 - Escape sequences
 - escape sequence: A special sequence of characters used to represent certain special characters in a string.
-	- **\t** 		tab character
-	- **\n** 		new line character
-	- **\\"** 		quotation mark character
-	- **\\** 		backslash character
+	-       \t 		tab character
+	-       \n 		new line character
+	-       \" 		quotation mark character
+	-       \\ 		backslash character
 
 - AddTwoIntegers
 
