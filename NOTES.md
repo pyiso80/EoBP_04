@@ -131,6 +131,7 @@ to the variable on the left.
 <right> to make it compatible with the type of variable.
 
 - Widening and Narrowing
+-       byte, short, int, long, float, double
 
 ### Common Compiler Errors
 - A variable can't be used until it is assigned a value.
