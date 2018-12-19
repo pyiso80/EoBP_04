@@ -1,6 +1,6 @@
 import acm.program.ConsoleProgram;
 
-public class Add2Integers extends ConsoleProgram {
+public class AddTwoIntegers extends ConsoleProgram {
    public void run() {
       println("This program adds two numbers.");
       int n1 = readInt("Enter n1: ");
