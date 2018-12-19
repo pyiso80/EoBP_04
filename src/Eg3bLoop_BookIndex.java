@@ -1,5 +1,8 @@
 import acm.program.ConsoleProgram;
-
+/*
+page 18
+Book Index Printer
+ */
 public class Eg3bLoop_BookIndex extends ConsoleProgram {
    public void run() {
       String firstWord = readLine("Enter 1st word: ");

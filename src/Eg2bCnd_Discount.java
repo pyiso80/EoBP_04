@@ -1,15 +1,14 @@
 import acm.program.ConsoleProgram;
-
+/*
+page 8
+Discount
+ */
 public class Eg2bCnd_Discount extends ConsoleProgram {
    public void run() {
-
-      int x = 10;
-      //x = x - x * 0.1;
-
-      int purchaseAmt = readInt("Enter amt: ");
+      int purchaseAmt = readInt("Enter amt \"in cent\": ");
       if(purchaseAmt > 1000) {
-         //purchaseAmt = purchaseAmt -  purchaseAmt * 0.1;
-         println("Discounted Price: " + purchaseAmt);
+         double discountedPrice = purchaseAmt -  purchaseAmt * 0.1;
+         println("Discounted Price: " + discountedPrice);
       } else {
          println("Normal Price: " + purchaseAmt);
       }
