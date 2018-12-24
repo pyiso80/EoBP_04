@@ -11,13 +11,13 @@ public class Eg3bLoop_BookIndex extends ConsoleProgram {
       int totLineLength = 30;
       //for String variable, the length of the string can be
       //obtained using `varName.length()`
-      int numberOfDots = totLineLength - (firstWord.length() + pageNo.length());
+      int numberOfDots
+         = totLineLength - (firstWord.length() + pageNo.length());
       print(firstWord);
       for (int i = 0; i < numberOfDots; i++) {
          print(".");
       }
       println(pageNo);
-
    }
 
 }
